@@ -35,6 +35,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+  background: #020119 0% 0% no-repeat padding-box;
 }
 a {
   text-decoration: none;
@@ -688,7 +689,7 @@ padding: 1.2rem 0 0;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-bottom: 10px;
+margin-bottom: 4px;
 }
 .ffptxt p{
 color: #A0FF83 !important;
@@ -1720,6 +1721,18 @@ color: #B5A2C6;
     text-align: center;
     margin-bottom: 0;
 }
+.footertxt{
+display: none;
+}
+.footertxt small{
+  color: #B5A2C6;
+    font-size: 12px;
+    font-family: walkwaysemibold;
+    text-align: center;
+    display: block;
+    margin-top: 6rem;
+    margin-bottom: 0px;
+}
 .maindiv1{
 
 }
@@ -1809,6 +1822,7 @@ font-family: 'Poppins', sans-serif;
 }
 .roadmapflex{
 display: flex;
+flex-wrap: wrap;
 }
 .rmcol1{
 width: 33%;
@@ -1868,9 +1882,7 @@ margin-top: 0px;
     padding-left: 2px;
 
 }
-.maptxt ul li{
 
-}
 @media(min-width:1600px){
   .logodiv a img {
     width: 160px;
@@ -1981,27 +1993,11 @@ height: 210px;
 .sidenavbar ul{
   padding-left: 10px;
 }
-/* .sidenavbar ul li {
-    padding-right: 2rem;
-    padding-bottom: 10px;
-    display: block; 
-}
-/* .sidenavbar ul li::after{
-    height: 2px;
-    width: 108px;
-    top: 7px;
-    left: 33px;
-}
-.sidenavbar ul li span {
-    margin-bottom: 8px;
-    margin-left: 18px;
-} */
-
 .flex-col2{
   width: 100%;
 }
 .flex-col2{
-  padding: 2rem 20px;
+  padding: 2rem 20px 15px;
 }
 .maingallery img {
     width: 85px;
@@ -2010,7 +2006,10 @@ height: 210px;
   display: none;
 }
 .sidenavbar ul li{
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+.footertxt{
+  display: block;
 }
 }
 @media(max-width:600px){
@@ -2042,7 +2041,7 @@ height: 210px;
   font-size: 42px;
 }
 .sidenavbar ul li {
-    padding-bottom: 12px;
+    padding-bottom: 0px;
 }
 .rmcol2 img{
 display: none;
