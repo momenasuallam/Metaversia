@@ -567,7 +567,7 @@ cursor: pointer;
 .sec4divssb h2{
  font-family: redseats !important;
     color: #0F0F15 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
     letter-spacing: 0px !important;
     border-top-left-radius: 15px;
@@ -1726,7 +1726,7 @@ display: none;
 }
 .footertxt small{
   color: #B5A2C6;
-    font-size: 12px;
+    font-size: 14px;
     font-family: walkwaysemibold;
     text-align: center;
     display: block;
@@ -1823,6 +1823,7 @@ font-family: 'Poppins', sans-serif;
 .roadmapflex{
 display: flex;
 flex-wrap: wrap;
+align-items: center;
 }
 .rmcol1{
 width: 33%;
@@ -1840,16 +1841,16 @@ width: 100%;
 width: 33%;
 }
 .rmcol1 .maptxt:first-child{
-height: 130px;
+height: 155px;
 }
 .rmcol1 .maptxt:nth-child(2){
-height: 170px;
+height: 180px;
 }
 .rmcol3 .maptxt:first-child{
-height: 130px;
+height: 155px;
 }
 .rmcol3 .maptxt:nth-child(2){
-height: 170px;
+height: 180px;
 }
 
 .maptxt{
@@ -1859,21 +1860,21 @@ margin-bottom: 20px;
 font-family: redseats;
 font-weight: 200;
 color: #FFFFFF;
-font-size: 22px;
+font-size: 26px;
 margin-bottom: 2px;
 margin-top: 0px;
 }
 .maptxt h6{
 font-family: 'Poppins', sans-serif;
 font-weight: 200;
-font-size: 12px;
+font-size: 14px;
 color: #FFFFFF95;
 margin-top: 0px;
 }
 .maptxt ul{
 font-family: 'Poppins', sans-serif;
 font-weight: 300;
-font-size: 12px;
+font-size: 14px;
 color: #FFFFFF95;
 padding-top: 0px;
 margin-top: 0px;
@@ -1920,13 +1921,13 @@ margin-top: 0px;
     left: 11px;
 }
 .maptxt h5{
-  font-size: 55px;
+  font-size: 42px;
 }
 .maptxt ul{
-  font-size: 24px;
+  font-size: 18px;
 }
 .maptxt h6{
-  font-size: 24px;
+  font-size: 18px;
 }
 .rmcol1 .maptxt:first-child {
     height: 201px;
@@ -1958,16 +1959,16 @@ margin-top: 0px;
     width: 72px;
 }
 .rmcol1 .maptxt:first-child{
-height: 130px;
+height: 155px;
 }
 .rmcol1 .maptxt:nth-child(2){
-height: 210px;
+height: 280px;
 }
 .rmcol3 .maptxt:first-child{
-height: 130px;
+height: 155px;
 }
 .rmcol3 .maptxt:nth-child(2){
-height: 210px;
+height: 280px;
 }
 }
 @media(max-width:768px){
@@ -2056,16 +2057,16 @@ display: none;
   width: 100%;
 }
 .rmcol1 .maptxt:first-child{
-height: auto;
+height: auto !important;
 }
 .rmcol1 .maptxt:nth-child(2){
-height: auto;
+height: auto !important;
 }
 .rmcol3 .maptxt:first-child{
-height: auto;
+height: auto !important;
 }
 .rmcol3 .maptxt:nth-child(2){
-height: auto;
+height: auto !important;
 }
 .maptxt h5{
   font-size: 30px;
@@ -2079,3 +2080,37 @@ height: auto;
    
 }
 }
+@media(max-width:1200px){
+  .rmcol1 .maptxt:nth-child(2){
+    height: 220px;
+  }
+  .rmcol3 .maptxt:nth-child(2){
+    height: 220px;
+  }
+}
+@media(max-width:1050px){
+.maptxt ul {
+    font-size: 12px;
+}
+.maptxt h6{
+  font-size: 12px;
+}
+.maptxt h5{
+  font-size: 22px;
+}
+}
+@media(max-width:900px){
+  .rmcol1 .maptxt:first-child{
+    height: 128px;
+  }
+   .rmcol3 .maptxt:first-child{
+    height: 128px;
+  }
+  .rmcol1 .maptxt:nth-child(2) {
+    height: 235px;
+}
+.rmcol3 .maptxt:nth-child(2) {
+    height: 235px;
+}
+}
+
