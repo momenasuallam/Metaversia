@@ -2254,28 +2254,36 @@ height: auto !important;
 @media(max-width:1450px){
  
   .rmcol1 .maptxt:first-child {
-    height: 130px;
+    height: 148px;
 }
 .rmcol3 .maptxt:first-child {
-    height: 130px;
+    height: 148px;
 }
 .rmcol1 .maptxt:nth-child(2) {
-    height: 170px;
+    height: 190px;
 }
 .rmcol3 .maptxt:nth-child(2) {
-    height: 170px;
+    height: 190px;
 }
 }
 @media(max-width:1000px){
  
   .maptxt ul {
-    font-size: 12px;
+    font-size: 11px;
   }
   .rmcol1 .maptxt:nth-child(2) {
-    height: 230px;
+    height: 195px;
 }
 .rmcol3 .maptxt:nth-child(2) {
-    height: 230px;
+    height: 195px;
+}
+}
+@media(max-width:800px){
+  .rmcol1 .maptxt:nth-child(2) {
+    height: 220px;
+}
+.rmcol3 .maptxt:nth-child(2) {
+    height: 220px;
 }
 }
 @media(max-width:768px){
