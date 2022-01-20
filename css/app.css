@@ -2094,6 +2094,8 @@ height: 280px;
 }
 .flex-col2{
   width: 100%;
+  min-height: auto;
+  height: auto;
 }
 .flex-col2{
   padding: 2rem 20px 15px;
